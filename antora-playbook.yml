@@ -17,7 +17,12 @@ content:
     - url: .
       start_path: doc
       # branches: main # Don't specify branch, build the current one
-  edit_url: 'https://github.com/green-code-challenge-2025/green-code-initiative-docs/edit/{refname}/{path}'
+
+    - url: https://github.com/green-code-challenge-2025/creedengo-common.git
+      start_path: doc
+      branches: [ main ]
+
+  edit_url: '{web_url}/edit/{refname}/{path}' # URL template for the edit button, based on Github's URIs
 
 #  _   _ ___
 # | | | |_ _|
