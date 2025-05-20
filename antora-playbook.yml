@@ -25,9 +25,10 @@ content:
 #  \___/|___|
 # Defines the UI for the generated website
 ui:
-  bundle:
+  bundle: # The default bundle to use
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
+  supplemental_files: ./ui/supplemental # Overrides to the bundle, to customize the style and branding
 
 #    _       _
 #   /_\  _ _| |_ ___ _ _ __ _
