@@ -6,7 +6,7 @@ content:
   sources:
     - url: .
       start_path: docs
-      branches: main
+      # branches: main # Don't specify branch, build the current one
   # edit_url: '{web_url}/edit/{refname}/{path}'
   edit_url: 'https://github.com/green-code-challenge-2025/green-code-initiative-docs/edit/{refname}/{path}'
 
