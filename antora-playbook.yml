@@ -28,3 +28,14 @@ ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
+
+#    _       _
+#   /_\  _ _| |_ ___ _ _ __ _
+#  / _ \| ' \  _/ _ \ '_/ _` |
+# /_/ \_\_||_\__\___/_| \__,_|
+# Configures Antora further
+antora:
+  # Antora extensions can insert themselves in the build cycle to customize the build
+  extensions:
+    # Lunr-extension adds a search field based on JavaScript-based Lunr index
+    - require: '@antora/lunr-extension'
