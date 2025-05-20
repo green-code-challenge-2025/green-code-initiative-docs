@@ -1,0 +1,12 @@
+= Documentation for Green Code Initiative's projects
+
+This repo is the central point for building the web documentation of the Green Code Initative's projects.
+When built, it will retrieve the documentation from the various repositories and assemble it in a single website.
+
+== 🤝 Contribution
+
+You have an idea or you want to help us improving this project? +
+We are open to your suggestions and contributions! Open an issue or PR 🚀
+
+Check out the link:CONTRIBUTING.adoc[CONTRIBUTING.adoc] file
+and follow the various guides to start contributing.

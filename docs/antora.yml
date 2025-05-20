@@ -1,0 +1,5 @@
+name: green-code-initiative # the slug used in URL
+title: Green Code Initiative # prettier version for humans
+version: ~ # this module does NOT have versions
+nav:
+  - modules/ROOT/nav.adoc

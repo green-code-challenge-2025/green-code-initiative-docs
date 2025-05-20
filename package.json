@@ -1,0 +1,23 @@
+{
+  "name": "green-code-initiative-docs",
+  "version": "1.0.0",
+  "description": "Central repository for building the documentation for the Green Code Initiative's projects",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/green-code-challenge-2025/green-code-initiative-docs.git"
+  },
+  "author": "Green Code Initiative",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/green-code-challenge-2025/green-code-initiative-docs/issues"
+  },
+  "homepage": "https://github.com/green-code-challenge-2025/green-code-initiative-docs#readme",
+  "scripts": {
+    "build": "antora antora-playbook.yml",
+    "clean": "rimraf build"
+  },
+  "devDependencies": {
+    "antora": "^3.1.10",
+    "rimraf": "^6.0.1"
+  }
+}

@@ -1,0 +1,3 @@
+= Green Code Initiative
+
+Welcome on the web documentation for the Green Code Initiative's projects
