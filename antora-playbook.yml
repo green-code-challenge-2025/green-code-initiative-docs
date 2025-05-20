@@ -1,15 +1,29 @@
+#  ___ _ _
+# / __(_) |_ ___
+# \__ \ |  _/ -_)
+# |___/_|\__\___|
+# Basic settings
 site:
   title: Green Code Initiative
   start_page: green-code-initiative::index.adoc
 
+#   ___         _           _
+#  / __|___ _ _| |_ ___ _ _| |_
+# | (__/ _ \ ' \  _/ -_) ' \  _|
+#  \___\___/_||_\__\___|_||_\__|
+# Provides the content sources to generate the build
 content:
   sources:
     - url: .
       start_path: docs
       # branches: main # Don't specify branch, build the current one
-  # edit_url: '{web_url}/edit/{refname}/{path}'
   edit_url: 'https://github.com/green-code-challenge-2025/green-code-initiative-docs/edit/{refname}/{path}'
 
+#  _   _ ___
+# | | | |_ _|
+# | |_| || |
+#  \___/|___|
+# Defines the UI for the generated website
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
