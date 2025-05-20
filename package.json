@@ -12,7 +12,12 @@
     "url": "https://github.com/green-code-challenge-2025/green-code-initiative-docs/issues"
   },
   "homepage": "https://github.com/green-code-challenge-2025/green-code-initiative-docs#readme",
-  "dependencies": {
-    "antora": "^3.1.10"
+  "scripts": {
+    "build": "antora antora-playbook.yml",
+    "clean": "rimraf build"
+  },
+  "devDependencies": {
+    "antora": "^3.1.10",
+    "rimraf": "^6.0.1"
   }
 }

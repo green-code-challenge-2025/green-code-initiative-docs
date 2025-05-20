@@ -24,6 +24,8 @@ The documentation contains some essential files:
 . Clone the Git repository
 . Run `npm install`
 . You are good to go! 🚀
+** `npm run build` -> generates the website inside the `build/site` directory (`build/site/index.html` can be open in a web browser).
+** `npm run clean` -> removes the `build` directory (use to make sure your documentation doesn't include remainders from previous builds).
 
 == What else?
 
