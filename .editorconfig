@@ -1,0 +1,22 @@
+# EditorConfig helps developers define and maintain consistent
+# coding styles between different editors and IDEs
+# See https://editorconfig.org
+root = true
+
+# Define standards
+# Indentation default is 2 spaces
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+max_line_length = 120
+trim_trailing_whitespace = true
+
+# AsciiDoctor content
+[**.adoc]
+# Text content, lines may be long.
+# One sentence per line is easier for maintenance, but it can still be longer than 200 chars.
+# Use soft-wrap instead.
+max_line_length = off
