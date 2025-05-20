@@ -45,3 +45,16 @@ antora:
   extensions:
     # Lunr-extension adds a search field based on JavaScript-based Lunr index
     - require: '@antora/lunr-extension'
+
+#    _           _ _ ___          _
+#   /_\   ___ __(_|_)   \ ___  __| |_ ___ _ _
+#  / _ \ (_-</ _| | | |) / _ \/ _|  _/ _ \ '_|
+# /_/ \_\/__/\__|_|_|___/\___/\__|\__\___/_|
+# AsciiDoctor configuration
+asciidoc:
+  attributes:
+    ## ASCIIDOCTOR CONFIGURATION ##
+    # Allow URI read to retrieve SVG on compilation
+    # allow-uri-read: true
+    # Enable experimental features
+    experimental: true
