@@ -1,0 +1,32 @@
+= Hello! We are pleased to see you here 👋
+:gci-github-organization: https://github.com/green-code-initiative
+
+Please read
+common link:{gci-github-organization}/creedengo-common/blob/main/doc/CONTRIBUTING.md[CONTRIBUTING.md]
+in `creedengo-common` repository first.\
+Also check the link:{gci-github-organization}/creedengo-common/blob/main/doc/starter-pack.md[starter-pack] to
+have the basic information before starting.
+
+== Structure
+
+The documentation contains some essential files:
+
+* 📄 `antora-playbook.yml` defines the repos to get information from and the way the documentation should be built;
+* 📁 `docs` contains some content that is included as part of the documentation itself.
+
+== Requirements
+
+* Node.js 18.x or newer
+* Knowledge of https://asciidoctor.org/[AsciiDoctor] and fundamentals of https://asciidoctor.org/[Antora]
+
+== Installation
+
+. Clone the Git repository
+. Run `npm install`
+. You are good to go! 🚀
+
+== What else?
+
+You should be ready to open a PR on GitHub with all your code!
+
+This is the end of this guide, thank you for reading this far and contributing to the project 🙏.
