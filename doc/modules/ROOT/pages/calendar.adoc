@@ -1,0 +1,108 @@
+= Calendar
+:calendar-public-link: https://calendar.online/69d068943ef1b232261c
+
+The Green Code Initiative exposes a public calendar with all its meetings.
+You can access it link:{calendar-public-link}[here].
+
+== Structure
+
+=== Link-based access management
+
+No account is necessary to see, edit or administer the calendar and its sub-calendars.
+Instead, everything is link-based.
+
+Three links were initially generated:
+
+* one for <<admins,admins>>,
+* one for <<editors,editing>>,
+* and one for <<readers,reading>>.
+
+If you have the admin link, you can administer the whole calendar!
+
+[NOTE]
+The public, read-only link is {calendar-public-link}.
+
+=== Sub-calendars
+
+Five sub-calendars were created:
+
+* Creedengo Friday Meets
+* Contributors club (FR)
+* Creedengo Users club (FR)
+* Conferences
+* Hackathon
+
+[[readers]]
+== Tips for readers
+
+[[readers.subscribing]]
+=== Subscribing
+
+You can copy different URLs to subscribe to iCalendar feeds.
+
+[quote,calendar.online's documentation]
+Using the iCalendar feeds, you can import your events into other calendars such as Microsoft Outlook, Google Calendar, Thunderbird, or Apple iCal. Regardless of the access link, an iCalendar feed only allows read-only access.
+
+.Step 0
+image::calendar-tool-0.webp[]
+
+.Step 1
+image::calendar-tool-1.webp[]
+
+.Step 2
+image::calendar-tool-2.webp[]
+
+=== Option 1: Subscribing to only one sub-calendar
+
+Just copy the URL next to the sub-calendar you want to subscribe to and create a new calendar with it in your own agenda tool.
+
+=== Option 2: Subscribing to all sub-calendars so that they appear as a single calendar in your own agenda
+
+Copy the URL next to the menu:All sub-calendars[] options.
+When you'll create the new calendar in your agenda, all the sub-calendars will appear as one (all events under the same color scheme).
+
+[cols="1a,1a"]
+|===
+|➕ Pros:
+
+* faster to set up
+* you can easily select and deselect all the events in one click once imported
+
+|➖ Cons:
+
+* you cannot cherry-pick what type of events appear in your agenda
+|===
+
+=== Option 2 bis: Subscribing to all sub-calendars so that each sub-calendar appears independently in your own agenda
+
+Just repeat "Option 1" for all the sub-calendars you want.
+
+[cols="1a,1a"]
+|===
+|➕ Pros:
+
+* you can easily cherry-pick what type of events appears in your agenda
+
+|➖ Cons:
+
+* slower to set up
+* you cannot easily select and deselect all the events in one click once imported
+|===
+
+[[editors]]
+== Tips for editors
+
+* It is a regular calendar tool so it is pretty straightforward.
+* Editors have the same edition rights for events as admins but cannot edit sub-calendars.
+
+[[admins]]
+== Tips for admins
+
+* This is a free version so the limit is 6 sub-calendars.
+Other limits will apply (check out the site's documentation).
+* You can easily integrate it in a website (cf. "Website" tab in the Admin dashboard).
+
+[[notes]]
+== Notes
+
+calendar.online is hosted in Germany
