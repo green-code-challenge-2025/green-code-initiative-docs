@@ -27,6 +27,11 @@ content:
       branches: [ main ]
       # tags: [] # TODO upon each release, add the corresponding tag to this array
 
+    - url: https://github.com/green-code-challenge-2025/creedengo-rules-specifications.git
+      start_path: doc
+      branches: [ main ]
+      # tags: [] # TODO upon each release, add the corresponding tag to this array
+
   edit_url: '{web_url}/edit/{refname}/{path}' # URL template for the edit button, based on GitHub's URIs
 
 #  _   _ ___
