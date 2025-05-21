@@ -1,3 +1,9 @@
 = Green Code Initiative
 
-Welcome on the web documentation for the Green Code Initiative's projects
+Welcome on the web documentation for the Green Code Initiative's projects.
+
+== Discover our projects
+
+// TODO make this a quick-access page, with easy to see tiles.
+* Creedengo
+** xref:creedengo-java::index.adoc[]

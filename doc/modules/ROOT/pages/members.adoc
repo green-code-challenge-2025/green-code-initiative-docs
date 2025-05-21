@@ -1,3 +1,5 @@
 = Members
 
-Something about the members and contributors
+// TODO write this page
+[NOTE,caption=Work in progress]
+This page will present the members of and contributors to the Green Code Initiative.
