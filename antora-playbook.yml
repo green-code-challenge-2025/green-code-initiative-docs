@@ -58,3 +58,6 @@ asciidoc:
     # allow-uri-read: true
     # Enable experimental features
     experimental: true
+
+    ## VALUES AVAILABLE IN PAGES ##
+    gci-slack-url: https://green-code-initiative.slack.com/
